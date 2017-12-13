@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoleveopacidade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/formvoluntario_label_dados_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dados de Usuario"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+
+                <EditText
+                    android:id="@+id/formvoluntario_email"
+                    android:hint="Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/formvoluntario_senha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Senha"
+                    android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/formvoluntario_label_dados_pessoais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dados Pessoais"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+
+                <EditText
+                    android:id="@+id/formvoluntario_nome"
+                    android:hint="Nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/formvoluntario_cpf"
+                    android:hint="CPF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/formvoluntario_endereco"
+                    android:hint="Endereco(Rua, Numero, Bairro)"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/formvoluntario_cidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+                    android:id="@+id/formvoluntario_telefone"
+                    android:hint="Telefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

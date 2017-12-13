@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuLateral_meus_dados"
+            android:title="Meus Dados"/>
+
+        <item
+            android:id="@+id/menuLateral_afinidades"
+            android:title="Afinidades" />
+
+        <item
+            android:id="@+id/menuLateral_campanhas"
+            android:title="Campanhas" />
+
+
+    </group>
+
+    <item android:title="Ajuda">
+        <menu>
+            <item
+                android:id="@+id/menuLateral_sobre"
+                android:title="Sobre" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fundoleveopacidade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Spinner
+            android:id="@+id/formvoluntario_spinner_afinidade"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#d2d2d2"
+            android:theme="@style/Animation.AppCompat.DropDownUp" />
+
+
+        <Button
+            android:id="@+id/formvoluntario_inserir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inserir"
+            android:textAlignment="center" />
+
+
+        <ListView
+            android:id="@+id/formvoluntario_lista_afinidades"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="4.08" />
+
+
+    </LinearLayout>
+
+</ScrollView>
